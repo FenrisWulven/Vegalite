@@ -205,8 +205,8 @@
         {
           "mark": {"type":"text","thickness": 1, "font": "sans-serif", "fontSize": 11},
           "encoding": {
-            "x": {"value": 27},
-            "y": {"value": 110},
+            "x": {"value": 31},
+            "y": {"value": 112},
             "text": {"value": "Global Avg."}
           }
         },
