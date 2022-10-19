@@ -3,6 +3,14 @@
   "data": {
     "url": "https://raw.githubusercontent.com/FenrisWulven/Data-Vis-Vegalite/master/data/inflation_clean.csv"
   },
+  "config": {
+    "axis": {"labelFont": "Average", "titleFont": "Average"},
+    "legend": {"labelFont": "Average", "titleFont": "Average"},
+    "header": {"labelFont": "Average", "titleFont": "Average"},
+    "mark": {"font": "Average"},
+    "title": {"font": "Average", "subtitleFont": "Average"},
+    "style": {"group-title": {"fontSize": 20}}
+  },
   "vconcat":[
     {
       "title": "Current Worldwide Inflation Rates",
@@ -137,7 +145,7 @@
                 "legend": {
                   "title": "Country",
                   "symbolLimit": 8,
-                  "labelLimit": 71
+                  "labelLimit": 69
                 }
 
               },

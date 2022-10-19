@@ -9,10 +9,17 @@
       "as": "Year"
     }
   ],
-  
+  "config": {
+    "axis": {"labelFont": "Average", "titleFont": "Average"},
+    "legend": {"labelFont": "Average", "titleFont": "Average"},
+    "header": {"labelFont": "Average", "titleFont": "Average"},
+    "mark": {"font": "Average"},
+    "title": {"font": "Average", "subtitleFont": "Average"},
+    "style": {"group-title": {"fontSize": 20}}
+  },
   "hconcat": [
     {
-      "title": "Largest 5 Inflation Rates",
+      "title": "Highest 5 Inflation Rates",
       "width": 280,
       "height": 100,
       "params": [
@@ -85,7 +92,7 @@
       }
     },
     {
-      "title": "Smallest 5 Inflation Rates",
+      "title": "Lowest 5 Inflation Rates",
       "width": 280,
       "height": 100,
       "params": [

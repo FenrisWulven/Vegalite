@@ -1,5 +1,5 @@
 body {
-	background-color:rgb(237, 226, 210);
+	background-color: rgb(254, 229, 217);
 }
 
 .page {
@@ -12,20 +12,20 @@ body {
 
 .figure {
 	color: black;
-	font: "Roboto";
+	font-family: "Average", sans-serif;
 	font-weight: bold;
 	font-weight: 500;
 	font-size: 14px;
 	top: 25px;
 	bottom: 0px;
 	position: relative;
-	margin-left: 30px;
 	margin-top: 0px; 
 	margin-bottom: 10px;
 	text-align: center;
 }
 
 .map {
+	font-family: "Average", sans-serif;
 	top: 25px;
 	bottom: 0px; 
 	left: 0px;
@@ -34,6 +34,7 @@ body {
 }
 
 .bar {
+	font-family: "Average", sans-serif;
 	top: 25px;
 	bottom: 0px; 
 	left: 0px;
@@ -42,9 +43,12 @@ body {
 }
 
 .text-map {
-	font-size: 14px;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 17px;
+	font-family: "Average", sans-serif;
 	position: relative;
+    text-align: justify;
+    text-justify: inter-word;
+	margin-right: 25px;
 	top: 0px;
 	left: 0px;
 	right: 0px;
@@ -52,13 +56,20 @@ body {
 }
 
 .text-bar {
-	font-size: 14px;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-family: "Average", sans-serif;
 	position: relative;
+    text-align: justify;
+    text-justify: inter-word;
+	margin-right: 25px;
 	top: 0px;
 	left: 0px;
 	right: 0px;
 	bottom: 0px;
+}
+
+.name {
+	font-family: 'Average', sans-serif;
 }
 
 hr {
@@ -72,7 +83,14 @@ hr {
   }
 
 h1 {
-	font-size: 24px;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Abril Fatface', sans-serif;
 	text-align: center;
+}
+
+h2 {
+	font-family: 'Average', sans-serif;
+}
+
+h3 {
+	font-family: 'Average', sans-serif;
 }
